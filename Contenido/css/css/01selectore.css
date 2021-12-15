@@ -7,3 +7,10 @@ h1,h2,h3
 {
 color: green;
 }
+
+.articulo1
+{
+    background: #e9f1f700;
+    width: 500px;
+    padding: 20px;
+}

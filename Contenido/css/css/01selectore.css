@@ -10,7 +10,43 @@ color: green;
 
 .articulo1
 {
-    background: #e9f1f700;
+    background: #fffffffd;
     width: 500px;
     padding: 20px;
+}
+ 
+article h2
+{
+    color: #f9a03f;
+} 
+
+h1,h2,h3
+{
+   color: white; 
+   background: rgb(49, 163, 20);
+}
+
+p,h2,h3
+{
+    color: black;
+}
+div h4
+{
+color: red;
+}
+#azul
+{
+    color: blue;
+    font-size: 30px;
+}
+/*
+div p
+{
+    color: red;
+}
+
+/*
+div article p 
+{
+    color: yellow;
 }

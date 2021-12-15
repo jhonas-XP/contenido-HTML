@@ -3,4 +3,10 @@
 body
 {
     background:salmon;
+    color: rgb(140, 12, 145);
+}
+p
+{
+    color: black;
+    font-size: 30px;
 }

@@ -1,0 +1,28 @@
+body
+{
+    background: rgba(48, 41, 41, 0.933)
+}
+.texto
+{
+    color: rgba(3, 2, 2, 0.933);
+    text-shadow: 10px 10px 10px red;
+    text-align:center ;
+}
+.galeria
+{
+    width:100% ;
+}
+.galeria img
+{    
+    height: 200px;
+    vertical-align: top;
+    opacity: 0.5;
+    border: 1px solid;
+    padding:5px;
+    margin:10px;
+}
+.galeria img:hover
+{
+    opacity: 1;
+    border-radius: 100px;
+}

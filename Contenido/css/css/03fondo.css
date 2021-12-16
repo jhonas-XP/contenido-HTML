@@ -1,5 +1,14 @@
 body
 {
-    background: rgb(104, 140, 207);
-    background: url();
+    
+   /* background: rgb(104, 140, 207);*/
+    background: url('/Contenido/css/img/137362.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-attachment: fixed;
+    background-position:200px 200px;
+}
+article p
+{
+    color: gray;   
 }

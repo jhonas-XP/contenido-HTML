@@ -1,0 +1,31 @@
+a
+{
+    font-size: 50px;
+    text-decoration: underline;
+    color: black;
+    background: burlywood;
+}
+/*enlace sin visitar*/
+a:link
+{
+    text-decoration: none;
+    color: skyblue;
+}
+/* Enlaces visitados*/
+a:visited
+{
+    color: rgba(255, 0, 0, 0.733);
+}
+/*Estado del enlace mientras se pasa el mouse por encima*/
+a:hover
+{
+    background: skyblue;
+    color: purple;
+    font-size: 80px;
+}
+/*Estado activo del enlace mientras se esta haciendo click*/
+a:active
+{
+    text-decoration: underline;
+}
+

@@ -1,0 +1,56 @@
+body
+{
+    background: #f2f2f2;
+    font-family: Arial;
+    color: #fff;
+}
+/*Eliminamos los margin y padding generales que agregan
+  los navegadores web por defecto */
+/**
+{
+    padding:0;
+    margin:0;
+}*/  
+
+/*
+
+Existen 2 tipos de elemento, los que bloque (block) y
+los en linea (inline).
+los block tienen por defecto un ancho del 100%
+y ademas no pueden tener (por defecto) otro elemento a un lado.
+como usar = display: block;
+
+y los inline tienen el ancho que solo necesitan y (por defecto)
+los elementos automaticamente se ponen la lado del otro.
+como usar = display: inline;
+*/
+
+h1, p, div
+{
+    background: #f79256;
+    width: 600px;   
+    margin: 20px;
+    padding: 20px;
+}
+a
+{
+    color: #fff;
+    background: rebeccapurple;
+    display: inline-block;
+    width: 500px;
+    height: 110px;
+    margin: 20px;
+    padding: 20px;
+}
+/*
+.contenedor
+{
+    background: #2e294e;
+    height: 200px;
+    width: 800px;
+}
+.contenedor
+{
+    background: #d7263d;
+    width: 50%;
+}

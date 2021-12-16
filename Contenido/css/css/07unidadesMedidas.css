@@ -1,0 +1,25 @@
+/*Unidades absolutas  cm, mm, in // no son recomendables
+
+  Unidades relativas 
+  px = 
+  em = es igual al tamaño del contenedor padre, body
+  rem = funciona de manera similar pero para un subcontenedor 
+  % = utiliza el porcentaje de pantalla que se le asigne en cualquier dispositivo */
+body 
+{
+    font-size: 40px;
+}
+p
+{   
+    font-size: 30px;
+}
+.contenedor_padre
+{
+   font-size: 2rem;
+}
+div
+{
+    background: skyblue;
+    width: 300px;
+    height: 300px;
+}

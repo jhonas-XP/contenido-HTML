@@ -1,0 +1,29 @@
+/*podemos eliminar los margenes internos y padding*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+div
+{
+    background: rgb(250, 180, 223);
+    width: 500px;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+
+    margin: 50px;
+
+    padding: 30px 50px;
+    
+    border:double  black 15px;
+}
+p
+{
+    background: skyblue;
+}
+body
+{
+    font-family: Arial;
+}

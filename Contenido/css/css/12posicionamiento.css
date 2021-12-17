@@ -1,0 +1,35 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background: #ccc;
+}
+div 
+{
+    width:200px;
+    height: 200px;
+    background: #074d0d;
+    margin: 20px;
+    /*float: left;*/
+}
+
+.posicionamiento
+{
+    background: #ca2184;
+    position:fixed;
+    top: 100px;
+    /*right:;*/
+    left: 100px;
+    /*bottom: ;*/
+}
+
+/*tipos de posicionamiento::after
+  
+    - Normal (static): posicionamiento por defecto con el que 
+    - Relativo (relative): nos permite posicionar una caja y
+    - Absoluto (absolute): nos permite posicionar una caja resp
+    - Fijo (fixed): nos permite posicionar una caja en donde su
+    - flotante (float): nos permite desplazar las cajas todo lo 

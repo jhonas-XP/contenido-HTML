@@ -1,0 +1,44 @@
+div
+{
+    background: #856be2;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+}
+.caja1
+{
+    border: 10px solid #000;
+    border-radius: 50px;
+}
+.caja2 
+{
+    border:7px dotted #822525;
+    /*dependiedo a cuantos valores pongamos se hacen los bordes*/
+    border-radius:  30px 50px;
+}
+.caja3
+{
+    border: 7px dashed #000;
+    border-radius: 0px 10px 0px 10px;
+}
+.caja4
+{
+    /*nos da bordes dobles*/
+       border: 7px double #000;
+
+    /*hace que los bordes sean circular*/
+       /*border-radius: 100%;*/
+
+    /*el borde se incrusta dentro del contenido*/
+       /*border: 7px groove #000;*/
+
+    /*hace que el borde tenga efecto 3d*/
+       /*border: 7px ridge rgb(148, 148, 148);*/
+
+    /*efecto 3d de dos colores*/
+       /*border: 7px inset rgb(80, 71, 71);*/
+
+    /* efecto 3d de dos colores invertido*/
+       /*border: 7px outset rgb(209, 76, 76);*/
+}

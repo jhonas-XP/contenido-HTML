@@ -1,0 +1,49 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background: #a6d899;
+    font-family: Arial;
+    color: white;
+}
+
+/*Contenedor Padre*/
+.contenedor
+{
+    width: 90%;
+    max-width: 1000px;
+    /*height: 900px;*/
+    background: #095206;
+
+    /*Habilitar flexbox*/
+    display:flex;
+
+    flex-direction:column;
+
+    /*flex-wrap:wrap;*/
+
+    /*flex-flow:row wrap;*/
+
+    /*justify-content:flex-end;
+    
+    align-items:baseline;*/
+
+    /*align-content:space-around;*/
+}
+/*Elemento Hijo*/
+.caja
+{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background: #b5df7c;
+    margin: 20px;
+    padding: 20px;
+    font-size:50px;
+    color:rgb(0, 0, 0);
+
+    /*Order:1;*/
+}
